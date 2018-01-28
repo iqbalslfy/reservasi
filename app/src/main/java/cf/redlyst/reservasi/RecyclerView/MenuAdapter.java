@@ -68,6 +68,10 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuHolder>{
             @Override
             public void onClick(View view, int pos, boolean isLongClick) {
                 Toast.makeText(context, "Clicked : "+ menuList.get(pos).getJam(), Toast.LENGTH_SHORT).show();
+
+                if (pos == 0){
+
+                }
             }
         });
     }

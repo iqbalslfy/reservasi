@@ -51,14 +51,7 @@ public class MainActivity extends AppCompatActivity {
         menuList.add(new DataMenu("08:30-09:00"));
         menuList.add(new DataMenu("09:00-09:30"));
         menuList.add(new DataMenu("09:30-10:00"));
-        menuList.add(new DataMenu("10:30-11:00"));
-        menuList.add(new DataMenu("11:00-11:30"));
-        menuList.add(new DataMenu("12:30-13:00"));
-        menuList.add(new DataMenu("13:00-13:30"));
-        menuList.add(new DataMenu("10:30-11:00"));
-        menuList.add(new DataMenu("11:00-11:30"));
-        menuList.add(new DataMenu("12:30-13:00"));
-        menuList.add(new DataMenu("13:00-13:30"));
+
 
     }
 }
