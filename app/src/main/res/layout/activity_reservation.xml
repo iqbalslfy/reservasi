@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cf.redlyst.reservasi.MainActivity">
+    tools:context="cf.redlyst.reservasi.Activity.ReservationActivity">
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -54,11 +54,48 @@
                 </android.support.v7.widget.RecyclerView>
             </android.support.v7.widget.CardView>
 
-            <Button
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
 
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:padding="2dp"
+                    android:text="@string/warna_a" />
+
+                <RelativeLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:padding="2dp"
+                    android:text="@string/warna_b" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnPesan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="PESAN"/>
+                android:text="PESAN" />
+
         </LinearLayout>
 
     </android.support.v4.widget.NestedScrollView>

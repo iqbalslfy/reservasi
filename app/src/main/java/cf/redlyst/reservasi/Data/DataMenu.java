@@ -5,13 +5,14 @@ package cf.redlyst.reservasi.Data;
  */
 
 public class DataMenu {
-    private String Jam;
+    private String Jam,Tersedia;
 
     public DataMenu() {
     }
 
-    public DataMenu(String jam) {
+    public DataMenu(String jam, String tersedia) {
         Jam = jam;
+        Tersedia = tersedia;
     }
 
     public String getJam() {
@@ -20,5 +21,13 @@ public class DataMenu {
 
     public void setJam(String jam) {
         Jam = jam;
+    }
+
+    public String getTersedia() {
+        return Tersedia;
+    }
+
+    public void setTersedia(String tersedia) {
+        Tersedia = tersedia;
     }
 }

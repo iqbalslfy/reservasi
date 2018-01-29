@@ -3,4 +3,8 @@
     <string name="nama_dokter">Pilih Nama Dokter :</string>
     <string name="jam_booking">Pilih Jam Perikas :</string>
     <string name="posisi">10:00-10:30</string>
+    <string name="warna_a">Warna A</string>
+    <string name="warna_b">Warna B</string>
+    <string name="reservation">Reservation</string>
+    <string name="input_reservation">Input Reservation</string>
 </resources>
