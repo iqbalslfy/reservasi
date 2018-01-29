@@ -24,6 +24,7 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
         ed_doctor_schedule = findViewById(R.id.ed_doctor_schedule);
 
 
+        btnSubmit.setOnClickListener(this);
     }
 
     @Override

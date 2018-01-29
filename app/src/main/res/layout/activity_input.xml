@@ -29,8 +29,7 @@
                         android:id="@+id/tv1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:text="@string/reservation" />
+                        android:text="@string/name_doctor" />
 
                     <EditText
                         android:id="@+id/ed_doctor_name"
@@ -42,7 +41,7 @@
                         android:id="@+id/tv2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/reservation"
+                        android:text="@string/time_schedule"
                         android:layout_below="@+id/ed_doctor_name"/>
 
                     <EditText

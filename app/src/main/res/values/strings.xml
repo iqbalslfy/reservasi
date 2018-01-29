@@ -7,4 +7,6 @@
     <string name="warna_b">Warna B</string>
     <string name="reservation">Reservation</string>
     <string name="input_reservation">Input Reservation</string>
+    <string name="name_doctor">Nama Dokter</string>
+    <string name="time_schedule">Waktu</string>
 </resources>
