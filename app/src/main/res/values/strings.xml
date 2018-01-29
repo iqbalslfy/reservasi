@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">reservasi</string>
+    <string name="app_name">Reservation</string>
     <string name="nama_dokter">Pilih Nama Dokter :</string>
     <string name="jam_booking">Pilih Jam Perikas :</string>
     <string name="posisi">10:00-10:30</string>
@@ -9,4 +9,5 @@
     <string name="input_reservation">Input Reservation</string>
     <string name="name_doctor">Nama Dokter</string>
     <string name="time_schedule">Waktu</string>
+    <string name="home">Home Reservation</string>
 </resources>

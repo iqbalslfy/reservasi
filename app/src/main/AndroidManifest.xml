@@ -13,12 +13,18 @@
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.HomeActivity" />
-        <activity android:name=".Activity.InputActivity"></activity>
+
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:configChanges="orientation"
+            android:label="@string/home"/>
+
+        <activity android:name=".Activity.InputActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/input_reservation"/>
     </application>
 
 </manifest>
