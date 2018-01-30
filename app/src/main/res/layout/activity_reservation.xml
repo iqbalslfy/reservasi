@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     tools:context="cf.redlyst.reservasi.Activity.ReservationActivity">
 
-    <android.support.v4.widget.NestedScrollView
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_below="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -98,6 +101,6 @@
 
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </ScrollView>
 
 </RelativeLayout>

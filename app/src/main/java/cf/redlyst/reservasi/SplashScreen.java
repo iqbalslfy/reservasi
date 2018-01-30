@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.ProgressBar;
 
 import cf.redlyst.reservasi.Activity.HomeActivity;
-import cf.redlyst.reservasi.Activity.ReservationActivity;
 
 public class SplashScreen extends AppCompatActivity {
     private ProgressBar mProgress;
@@ -27,7 +26,7 @@ public class SplashScreen extends AppCompatActivity {
     }
 
     private void doWork() {
-        for (int progress=0; progress<100; progress+=17) {
+        for (int progress = 0; progress < 100; progress += 17) {
             try {
                 Thread.sleep(1000);
                 mProgress.setProgress(progress);

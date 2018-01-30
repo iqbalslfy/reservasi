@@ -8,11 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Activity.ReservationActivity" />
+        android:theme="@style/AppTheme.">
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -20,11 +20,33 @@
         <activity
             android:name=".Activity.HomeActivity"
             android:configChanges="orientation"
-            android:label="@string/home"/>
-
-        <activity android:name=".Activity.InputActivity"
+            android:label="@string/home"
+            android:theme="@style/AppTheme." />
+        <activity
+            android:name=".Activity.InputActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:label="@string/input_reservation"/>
+            android:label="@string/input_reservation"
+            android:theme="@style/AppTheme." />
+        <activity
+            android:name=".Activity.OneDayCareActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/one_day_care"
+            android:theme="@style/AppTheme." />
+        <activity
+            android:name=".Activity.PromoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/promo"
+            android:theme="@style/AppTheme." />
+        <activity
+            android:name=".Activity.AboutActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/about"
+            android:theme="@style/AppTheme."/>
+        <activity
+            android:name=".Activity.ReservationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/reservation"
+            android:theme="@style/AppTheme."/>
     </application>
 
 </manifest>
